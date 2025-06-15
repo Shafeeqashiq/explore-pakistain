@@ -6,6 +6,7 @@ function Navbar() {
   const navItems = [
     { label: "Home", href: "#videoCarousel" },
     { label: "Tours", href: "#tours" },
+    { label: "Booking Status", href: "#booking_status" },
     { label: "Reviews", href: "#reviews" },
     { label: "Contact Us", href: "#contact_us" },
   ];

@@ -29,7 +29,7 @@ export default function TourOffers() {
       .then((res) => res.json())
       .then((data) => setTours(data))
       .catch((err) => console.error("Failed to fetch tours:", err));
-  }, []);
+  });
 
   const uniqueValues = (key) => [...new Set(tours.map((tour) => tour[key]))];
 

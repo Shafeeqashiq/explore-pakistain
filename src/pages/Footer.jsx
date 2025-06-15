@@ -72,6 +72,12 @@ const Footer = () => {
                   Tours
                 </a>
               </li>
+               <li>
+                <a href="#booking_status" className="text-light text-decoration-none">
+                  Booking Status
+                </a>
+              </li>
+              
               <li>
                 <a href="#reviews" className="text-light text-decoration-none">
                   Reviews

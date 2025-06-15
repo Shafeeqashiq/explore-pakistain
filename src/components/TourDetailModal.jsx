@@ -8,11 +8,23 @@ import {
   Image,
   Spinner,
 } from "react-bootstrap";
-import "../styles/TourDetailModal.css"; // Assuming you have some styles for the modal
+import "../styles/TourDetailModal.css";
+import TourBookingForm from "./TourBookingForm";
+
 const TourDetailModal = ({ show, onHide, tour }) => {
+  const [currentTour, setCurrentTour] = useState(null);
   const [serviceImages, setServiceImages] = useState({});
   const [loadingImages, setLoadingImages] = useState(true);
+  const [showBookingForm, setShowBookingForm] = useState(false);
 
+  // Update local tour state when new tour prop is passed
+  useEffect(() => {
+    if (tour) {
+      setCurrentTour(tour);
+    }
+  }, [tour]);
+
+  // Fetch service images when modal is shown
   useEffect(() => {
     if (show) {
       fetch("http://localhost:5000/serviceImages")
@@ -29,104 +41,133 @@ const TourDetailModal = ({ show, onHide, tour }) => {
     }
   }, [show]);
 
-  if (!tour) return null;
+  if (!currentTour) return null;
 
   const imageUrl =
-    typeof tour.image === "string" && tour.image.trim()
-      ? tour.image
+    typeof currentTour.image === "string" && currentTour.image.trim()
+      ? currentTour.image
       : "https://via.placeholder.com/600x400";
 
   return (
     <Modal show={show} onHide={onHide} size="lg" centered>
       <Modal.Header closeButton>
-        <Modal.Title>{tour.title}</Modal.Title>
+        <Modal.Title>{currentTour.title}</Modal.Title>
       </Modal.Header>
 
       <Modal.Body>
         <Row className="mb-3">
           <Col md={6}>
-            <Image src={imageUrl} alt={tour.title} fluid rounded />
+            <Image src={imageUrl} alt={currentTour.title} fluid rounded />
           </Col>
           <Col md={6}>
             <p>
-              <strong>Location:</strong> {tour.location}
+              <strong>Location:</strong> {currentTour.location}
             </p>
             <p>
-              <strong>Price:</strong> ${tour.price}
+              <strong>Price:</strong> ${currentTour.price}
             </p>
             <p>
               <strong>Category:</strong>{" "}
-              <Badge bg="info">{tour.category}</Badge>
+              <Badge bg="info">{currentTour.category}</Badge>
             </p>
             <p>
-              <strong>Rating:</strong> ⭐ {tour.rating}
+              <strong>Rating:</strong> ⭐ {currentTour.rating}
             </p>
             <p>
-              <strong>Departure:</strong> {tour.departureLocation}
+              <strong>Departure:</strong> {currentTour.departureLocation}
             </p>
             <p>
-              <strong>Duration:</strong> {tour.durationDays} days
+              <strong>Duration:</strong> {currentTour.durationDays} days
             </p>
             <p>
-              <strong>Start Date:</strong> {tour.startDate || "N/A"}
+              <strong>Seats Available:</strong> {currentTour.remainingSeats}{" "}
+              seats
             </p>
             <p>
-              <strong>End Date:</strong> {tour.endDate || "N/A"}
+              <strong>Start Date:</strong> {currentTour.startDate || "N/A"}
+            </p>
+            <p>
+              <strong>End Date:</strong> {currentTour.endDate || "N/A"}
             </p>
           </Col>
         </Row>
 
         <h5>Description</h5>
-        <p>{tour.description}</p>
+        <p>{currentTour.description}</p>
 
-        {Array.isArray(tour.itinerary) && tour.itinerary.length > 0 && (
-          <>
-            <h5>Itinerary</h5>
-            <ul className="list-unstyled">
-              {tour.itinerary.map((item, idx) => (
-                <li key={idx} className="itinerary-item">
-                  <strong>
-                    Day {item.day}: {item.title}
-                  </strong>
-                  <p className="mb-1">{item.description}</p>
-                </li>
-              ))}
-            </ul>
-          </>
-        )}
-
-        {Array.isArray(tour.services) && tour.services.length > 0 && (
-          <>
-            <h5>Services Included</h5>
-            {loadingImages ? (
-              <div className="text-center">
-                <Spinner animation="border" />
-              </div>
-            ) : (
-              <Row className="justify-content-center">
-                {tour.services.map((service, idx) => (
-                  <Col key={idx} md={4} className=" align-items-left mb-4 ">
-                    <div className="service-card">
-                      <Image
-                        src={
-                          serviceImages[service] ||
-                          "https://via.placeholder.com/100"
-                        }
-                        alt={service}
-                        fluid
-                        className="service-image"
-                      />
-                      <div className="service-label">{service}</div>
-                    </div>
-                  </Col>
+        {Array.isArray(currentTour.itinerary) &&
+          currentTour.itinerary.length > 0 && (
+            <>
+              <h5>Itinerary</h5>
+              <ul className="list-unstyled">
+                {currentTour.itinerary.map((item, idx) => (
+                  <li key={idx} className="itinerary-item">
+                    <strong>
+                      Day {item.day}: {item.title}
+                    </strong>
+                    <p className="mb-1">{item.description}</p>
+                  </li>
                 ))}
-              </Row>
-            )}
-          </>
+              </ul>
+            </>
+          )}
+
+        {Array.isArray(currentTour.services) &&
+          currentTour.services.length > 0 && (
+            <>
+              <h5>Services Included</h5>
+              {loadingImages ? (
+                <div className="text-center">
+                  <Spinner animation="border" />
+                </div>
+              ) : (
+                <Row className="justify-content-center">
+                  {currentTour.services.map((service, idx) => (
+                    <Col key={idx} md={4} className="align mb-4">
+                      <div className="service-card">
+                        <Image
+                          src={
+                            serviceImages[service] ||
+                            "https://via.placeholder.com/100"
+                          }
+                          alt={service}
+                          fluid
+                          className="service-image"
+                        />
+                        <div className="service-label">{service}</div>
+                      </div>
+                    </Col>
+                  ))}
+                </Row>
+              )}
+            </>
+          )}
+
+        {showBookingForm && (
+          <TourBookingForm
+            tourId={currentTour.id}
+            remainingSeats={currentTour.remainingSeats}
+            updateRemainingSeats={(newSeats) => {
+              setCurrentTour((prev) => ({
+                ...prev,
+                remainingSeats: newSeats,
+              }));
+            }}
+            onSuccess={() => console.log("Booking complete!")}
+          />
         )}
       </Modal.Body>
 
       <Modal.Footer>
+        {!showBookingForm ? (
+          <Button variant="success" onClick={() => setShowBookingForm(true)}>
+            Book Now
+          </Button>
+        ) : (
+          <Button variant="secondary" onClick={() => setShowBookingForm(false)}>
+            Cancel Booking
+          </Button>
+        )}
         <Button variant="secondary" onClick={onHide}>
           Close
         </Button>

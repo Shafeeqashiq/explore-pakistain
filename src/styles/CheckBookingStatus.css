@@ -1,0 +1,19 @@
+.custom-shadow {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.custom-shadow:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+.left-label .form-label {
+  text-align: left !important;
+}
+.force-left-label .form-label {
+  display: block;
+  text-align: left !important;
+    font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
