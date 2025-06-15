@@ -1,0 +1,13 @@
+.footer-section a:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.footer-section img {
+  filter: brightness(100%);
+}
+
+.footer-section h5 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}

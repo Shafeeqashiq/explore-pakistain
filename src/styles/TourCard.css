@@ -1,0 +1,86 @@
+.custom-tour-btn {
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.custom-tour-btn:hover {
+  transform: scale(1.03);
+  background-color: #157347 !important; /* slightly deeper green */
+}
+
+.custom-tour-btn:active {
+  transform: scale(0.98);
+}
+/* TourCard.css */
+
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Optional: subtle image zoom on hover */
+.card-hover .card-img-top {
+  transition: transform 0.4s ease;
+}
+
+.card-hover:hover .card-img-top {
+  transform: scale(1.03);
+}
+
+/* Button hover (already added) */
+.custom-tour-btn {
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.custom-tour-btn:hover {
+  transform: scale(1.03);
+  background-color: #157347 !important;
+}
+
+.custom-tour-btn:active {
+  transform: scale(0.96);
+}
+
+/* Entry animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card-animated {
+  animation: fadeInUp 0.5s ease forwards;
+}
+
+
+/* Base card animation */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Optional: Zoom image slightly on hover */
+.card-hover:hover img {
+  transform: scale(1.05);
+  transition: transform 0.4s ease;
+}
+
+/* Prevent content jump */
+.card-hover img {
+  transition: transform 0.4s ease;
+}
+
+

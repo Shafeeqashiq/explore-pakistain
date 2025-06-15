@@ -1,0 +1,584 @@
+{
+  "testimonials": [
+ 
+  {
+    "name": "Aisha Khan",
+    "rating": 4,
+    "review": "Great quality and attention to detail. Customer support was quick and professional."
+  },
+  {
+    "name": "Sophia Morales",
+    "rating": 5,
+    "review": "Exceeded my expectations! Seamless experience from start to finish."
+  },
+  {
+    "name": "Dev Patel",
+    "rating": 5,
+    "review": "Fantastic! Customer service was top-notch and the product works like a charm."
+  },
+  {
+    "name": "Hannah Kim",
+    "rating": 4,
+    "review": "Very helpful and user-friendly. Made my workflow much easier."
+  },
+  {
+    "name": "Oliver Jensen",
+    "rating": 5,
+    "review": "The best decision I’ve made this year. Everything just works perfectly."
+  },
+  {
+    "name": "Brian O'Neal",
+    "rating": 4,
+    "review": "Solid product. Easy to use, reliable, and the team clearly cares about the user experience."
+  },
+  {
+    "name": "Luna Navarro",
+    "rating": 5,
+    "review": "Love it! Simple, elegant, and very effective. Highly recommended."
+  },
+ 
+  {
+    "name": "Emily Brooks",
+    "rating": 5,
+    "review": "Brilliant! Worth every penny. I’ll be using this for a long time."
+  },
+  {
+    "name": "Carlos Mendes",
+    "rating": 5,
+    "review": "Unmatched quality and performance. This truly stands out from the competition."
+  },
+  {
+    "name": "Maya Anderson",
+    "rating": 4,
+    "review": "A reliable solution with great value. It’s now part of my daily routine."
+  },
+ 
+  {
+    "name": "Noah Fischer",
+    "rating": 5,
+    "review": "Exceptional product! Easy to set up and packed with features."
+  },
+  {
+    "name": "Amira El-Sayed",
+    "rating": 5,
+    "review": "Professional, smooth, and extremely helpful. I couldn’t ask for more."
+  },
+ 
+  {
+    "name": "Kenji Tanaka",
+    "rating": 5,
+    "review": "Works flawlessly. I’ve already recommended it to my team and clients."
+  }
+],
+
+  
+  "tours": [
+  
+  {
+    "id": "pk_001",
+    "title": "Hunza Valley",
+    "location": "Gilgit-Baltistan",
+    "departureLocation": "Islamabad",
+    "description": "A breathtaking mountainous valley known for its stunning landscapes, ancient forts, and serene lakes.",
+    "price": 1200,
+    "durationDays": 5,
+    "rating": 4.8,
+    "reviewsCount": 47,
+    "startDate": "2025-07-10",
+    "endDate": "2025-07-14",
+    "remainingSeats": 8,
+    "totalSeats": 20,
+    "category": "Adventure",
+    "image": "https://www.penguintravel.com/uploads/news/news_500.jpg",
+    "itinerary": [
+      { "day": 1, "title": "Arrival & Check-in", "description": "Drive to Hunza, hotel check-in, rest." },
+      { "day": 2, "title": "Altit & Baltit Forts", "description": "Visit centuries-old forts and local museum." },
+      { "day": 3, "title": "Eagle’s Nest & Hopper Glacier", "description": "Sunrise viewpoint and glacier excursion." },
+      { "day": 4, "title": "Attabad Lake & Passu Cones", "description": "Boat ride and sightseeing of unique rock formations." },
+      { "day": 5, "title": "Return Journey", "description": "Drive back to Islamabad with scenic stops." }
+    ],
+    "services": ["Accommodation", "Meals", "Guided Tours", "Transport"]
+  },
+  {
+    "id": "pk_002",
+    "title": "Skardu",
+    "location": "Gilgit-Baltistan",
+    "departureLocation": "Islamabad",
+    "description": "Gateway to some of the world's highest peaks, with beautiful lakes and trekking trails.",
+    "price": 1400,
+    "durationDays": 6,
+    "rating": 4.7,
+    "reviewsCount": 38,
+    "startDate": "2025-07-05",
+    "endDate": "2025-07-10",
+    "remainingSeats": 10,
+    "totalSeats": 20,
+    "category": "Adventure",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/39/26/f2/upper-kachura-lake-is.jpg?w=1200&h=-1&s=1",
+    "itinerary": [
+      { "day": 1, "title": "Travel to Skardu", "description": "Journey begins from Islamabad." },
+      { "day": 2, "title": "Kachura Lakes", "description": "Explore Upper and Lower Kachura Lakes." },
+      { "day": 3, "title": "Shangrila Resort", "description": "Relax at Pakistan’s ‘Heaven on Earth’." },
+      { "day": 4, "title": "Deosai National Park", "description": "Visit the world's second highest plateau." },
+      { "day": 5, "title": "Shigar Fort & Cold Desert", "description": "Cultural visit and jeep safari." },
+      { "day": 6, "title": "Departure", "description": "Return to Islamabad." }
+    ],
+    "services": ["Accommodation", "Meals", "Jeep Tours", "Guided Treks"]
+  },
+  {
+    "id": "pk_003",
+    "title": "Nathia Gali",
+    "location": "Khyber Pakhtunkhwa",
+    "departureLocation": "Islamabad",
+    "description": "A popular hill station known for pine forests, hiking trails, and cool weather.",
+    "price": 600,
+    "durationDays": 3,
+    "rating": 4.4,
+    "reviewsCount": 22,
+    "startDate": "2025-06-20",
+    "endDate": "2025-06-22",
+    "remainingSeats": 12,
+    "totalSeats": 18,
+    "category": "Nature",
+    "image": "https://flypakistan.pk/assets/img/blog/WhatsApp%20Image%202023-07-27%20at%2014.55.07.jpeg",
+    "itinerary": [
+      { "day": 1, "title": "Arrival & Leisure", "description": "Drive to Nathia Gali, explore local bazaar." },
+      { "day": 2, "title": "Mushkpuri Trek", "description": "Guided hike to Mushkpuri Top with picnic lunch." },
+      { "day": 3, "title": "Mukshpuri Wildlife Track", "description": "Forest walk and return journey." }
+    ],
+    "services": ["Hotel Stay", "Meals", "Hiking Guide", "Local Transport"]
+  },
+  {
+    "id": "pk_004",
+    "title": "Fairy Meadows",
+    "location": "Gilgit-Baltistan",
+    "departureLocation": "Islamabad",
+    "description": "A stunning alpine meadow with majestic views of Nanga Parbat, the world's ninth highest mountain.",
+    "price": 1500,
+    "durationDays": 4,
+    "rating": 4.9,
+    "reviewsCount": 52,
+    "startDate": "2025-07-25",
+    "endDate": "2025-07-28",
+    "remainingSeats": 5,
+    "totalSeats": 15,
+    "category": "Trekking",
+    "image": "https://www.toptravelsights.com/wp-content/uploads/2022/08/Nanga-Parbat-from-Fairy-Meadows-1024x576.jpg",
+    "itinerary": [
+      { "day": 1, "title": "Drive to Raikot Bridge", "description": "Long drive and overnight camp near the bridge." },
+      { "day": 2, "title": "Jeep Ride & Hike to Meadows", "description": "4x4 ride + 3-hour hike to reach Fairy Meadows." },
+      { "day": 3, "title": "Explore Beyal Camp", "description": "Optional hike to Beyal base camp of Nanga Parbat." },
+      { "day": 4, "title": "Hike Back & Return", "description": "Descend and drive back to Islamabad." }
+    ],
+    "services": ["Camping", "Meals", "Hiking Guide", "Transport"]
+  },
+  {
+    "id": "pk_005",
+    "title": "Islamabad",
+    "location": "Capital Territory",
+    "departureLocation": "Lahore",
+    "description": "The capital city featuring modern architecture, parks, and cultural sites.",
+    "price": 500,
+    "durationDays": 2,
+    "rating": 4.3,
+    "reviewsCount": 18,
+    "startDate": "2025-06-15",
+    "endDate": "2025-06-16",
+    "remainingSeats": 14,
+    "totalSeats": 20,
+    "category": "City Tour",
+    "image": "https://sapphireproperties.com.pk/wp-content/uploads/2024/12/6289716d4e5f75e86751ba45e11fe4b5-1.jpg",
+    "itinerary": [
+      { "day": 1, "title": "City Tour & Monuments", "description": "Faisal Mosque, Daman-e-Koh, Pakistan Monument." },
+      { "day": 2, "title": "Shopping & Culture", "description": "Visit Centaurus Mall, Lok Virsa Museum, return." }
+    ],
+    "services": ["Hotel", "City Tours", "Meals", "Transport"]
+  },
+  {
+    "id": "pk_006",
+    "title": "Murree Weekend Getaway",
+    "location": "Punjab",
+    "departureLocation": "Lahore",
+    "description": "A famous hill station known for its pine forests and cool climate.",
+    "price": 500,
+    "durationDays": 3,
+    "rating": 4.4,
+    "reviewsCount": 36,
+    "startDate": "2025-07-05",
+    "endDate": "2025-07-07",
+    "remainingSeats": 10,
+    "totalSeats": 25,
+    "category": "Leisure",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/A_beautiful_view_of_Murree%2C_Pakistan.jpg/960px-A_beautiful_view_of_Murree%2C_Pakistan.jpg",
+    "itinerary": [
+      { "day": 1, "title": "Travel to Murree", "description": "Evening arrival and Mall Road walk" },
+      { "day": 2, "title": "Patriata Chairlift", "description": "Visit New Murree and chairlift ride" },
+      { "day": 3, "title": "Return", "description": "Morning at leisure, return to Lahore" }
+    ],
+    "services": ["Hotel", "Meals", "Local Transport", "Sightseeing"]
+  }
+,
+
+  {
+    "id": "pk_007",
+    "title": "Chitral & Kalash Valley",
+    "location": "Khyber Pakhtunkhwa",
+    "departureLocation": "Peshawar",
+    "description": "Explore unique cultures and beautiful mountain valleys with rich traditions.",
+    "price": 2200,
+    "durationDays": 6,
+    "rating": 4.7,
+    "reviewsCount": 24,
+    "startDate": "2025-08-20",
+    "endDate": "2025-08-25",
+    "remainingSeats": 6,
+    "totalSeats": 15,
+    "category": "Cultural",
+    "image": "https://www.apricottours.pk/wp-content/uploads/2017/03/chitral-kalash-9.jpg",
+    "itinerary": [
+      { "day": 1, "title": "Travel to Chitral", "description": "Flight or road journey to Chitral" },
+      { "day": 2, "title": "Chitral Town", "description": "Visit Chitral Fort and local bazaar" },
+      { "day": 3, "title": "Kalash Valleys", "description": "Explore Bumburet Valley" },
+      { "day": 4, "title": "Rumbur Valley", "description": "Visit another Kalash valley" },
+      { "day": 5, "title": "Shandur Pass", "description": "Visit the world's highest polo ground" },
+      { "day": 6, "title": "Return", "description": "Travel back to Peshawar" }
+    ],
+    "services": ["Accommodation", "Meals", "Guided Tours", "Transport"]
+  },
+  {
+    "id": "pk_008",
+    "title": "Lahore Heritage Tour",
+    "location": "Punjab",
+    "departureLocation": "Local",
+    "description": "A historic city known for its rich culture, Mughal architecture, and vibrant bazaars.",
+    "price": 300,
+    "durationDays": 2,
+    "rating": 4.6,
+    "reviewsCount": 42,
+    "startDate": "2025-10-10",
+    "endDate": "2025-10-11",
+    "remainingSeats": 20,
+    "totalSeats": 40,
+    "category": "Cultural",
+    "image": "https://dynamic-media.tacdn.com/media/photo-o/2f/12/d5/2c/caption.jpg?w=800&h=600&s=1",
+    "itinerary": [
+      { "day": 1, "title": "Old City Tour", "description": "Visit Lahore Fort, Badshahi Mosque, and Walled City" },
+      { "day": 2, "title": "Modern Lahore", "description": "Visit Shalimar Gardens and Liberty Market" }
+    ],
+    "services": ["Hotel", "City Tours", "Meals", "Transport"]
+  },
+  {
+    "id": "pk_009",
+    "title": "Karimabad Explorer",
+    "location": "Gilgit-Baltistan",
+    "departureLocation": "Islamabad",
+    "description": "The main town in Hunza Valley, famous for Baltit and Altit forts.",
+    "price": 1400,
+    "durationDays": 4,
+    "rating": 4.8,
+    "reviewsCount": 31,
+    "startDate": "2025-07-25",
+    "endDate": "2025-07-28",
+    "remainingSeats": 7,
+    "totalSeats": 15,
+    "category": "Cultural",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/74/d8/bb/baltit-fort-karimabad.jpg?w=1000&h=1000&s=1",
+    "itinerary": [
+      { "day": 1, "title": "Travel to Karimabad", "description": "Scenic drive from Islamabad" },
+      { "day": 2, "title": "Baltit Fort", "description": "Explore the 700-year-old fort" },
+      { "day": 3, "title": "Local Villages", "description": "Visit Ganish and other nearby villages" },
+      { "day": 4, "title": "Return", "description": "Drive back to Islamabad" }
+    ],
+    "services": ["Accommodation", "Meals", "Sightseeing", "Transport"]
+  },
+  {
+    "id": "pk_010",
+    "title": "Swat Valley Explorer",
+    "location": "Khyber Pakhtunkhwa",
+    "departureLocation": "Islamabad",
+    "description": "Known as the Switzerland of the East, Swat offers lush valleys, rivers, and historical sites.",
+    "price": 1600,
+    "durationDays": 5,
+    "rating": 4.6,
+    "reviewsCount": 29,
+    "startDate": "2025-08-10",
+    "endDate": "2025-08-14",
+    "remainingSeats": 9,
+    "totalSeats": 20,
+    "category": "Adventure",
+    "image": "https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/01/29143115/untitled-design-2024-01-25t124838-567.jpeg?tr=w-1366,f-jpg,pr-true",
+    "itinerary": [
+      { "day": 1, "title": "Travel to Swat", "description": "Drive to Mingora, hotel check-in" },
+      { "day": 2, "title": "Malam Jabba", "description": "Visit the famous ski resort" },
+      { "day": 3, "title": "Kalam Valley", "description": "Explore Ushu Forest and Mahodand Lake" },
+      { "day": 4, "title": "Butkara Stupa", "description": "Visit ancient Buddhist site" },
+      { "day": 5, "title": "Return", "description": "Drive back to Islamabad" }
+    ],
+    "services": ["Hotel", "Meals", "Local Tours", "Transport"]
+  },
+  {
+    "id": "pk_011",
+    "title": "Ranikot Fort Expedition",
+    "location": "Sindh",
+    "departureLocation": "Karachi",
+    "description": "One of the world's largest forts, with impressive walls and ancient ruins.",
+    "price": 600,
+    "durationDays": 2,
+    "rating": 4.2,
+    "reviewsCount": 18,
+    "startDate": "2025-11-15",
+    "endDate": "2025-11-16",
+    "remainingSeats": 12,
+    "totalSeats": 25,
+    "category": "Historical",
+    "image": "https://taxilamuseum.com/wp-content/uploads/2023/08/Rohtas-Fort.jpg",
+    "itinerary": [
+      { "day": 1, "title": "Travel to Ranikot", "description": "Drive from Karachi, explore fort" },
+      { "day": 2, "title": "Return", "description": "Morning exploration, return to Karachi" }
+    ],
+    "services": ["Guide", "Meals", "Transport", "Accommodation"]
+  },
+  {
+    "id": "pk_012",
+    "title": "Makran Coastal Adventure",
+    "location": "Balochistan",
+    "departureLocation": "Karachi",
+    "description": "A scenic coastal drive along the Arabian Sea with stunning beaches and landscapes.",
+    "price": 1200,
+    "durationDays": 3,
+    "rating": 4.4,
+    "reviewsCount": 16,
+    "startDate": "2025-10-05",
+    "endDate": "2025-10-07",
+    "remainingSeats": 8,
+    "totalSeats": 15,
+    "category": "Adventure",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Makran_Coastal_Highway%2C_Balochistan.jpg/960px-Makran_Coastal_Highway%2C_Balochistan.jpg",
+    "itinerary": [
+      { "day": 1, "title": "Drive to Ormara", "description": "Stop at Kund Malir beach" },
+      { "day": 2, "title": "Ormara to Gwadar", "description": "Visit Princess of Hope rock formation" },
+      { "day": 3, "title": "Return", "description": "Explore Gwadar and return to Karachi" }
+    ],
+    "services": ["Transport", "Meals", "Guided Tours", "Hotel"]
+  },
+  {
+    "id": "pk_013",
+    "title": "Khewra Salt Mines Tour",
+    "location": "Punjab",
+    "departureLocation": "Islamabad",
+    "description": "The world's second largest salt mine offering guided tours and underground chambers.",
+    "price": 350,
+    "durationDays": 1,
+    "rating": 4.1,
+    "reviewsCount": 23,
+    "startDate": "2025-09-20",
+    "endDate": "2025-09-20",
+    "remainingSeats": 30,
+    "totalSeats": 50,
+    "category": "Family",
+    "image": "https://i.dawn.com/primary/2019/09/5d8b96b5a69fa.jpg",
+    "itinerary": [
+      { "day": 1, "title": "Day Trip", "description": "Guided tour of salt mines, return same day" }
+    ],
+    "services": ["Guide", "Transport", "Entry Fee"]
+  },
+  {
+    "id": "pk_014",
+    "title": "Deosai National Park Safari",
+    "location": "Gilgit-Baltistan",
+    "departureLocation": "Skardu",
+    "description": "The 'Land of Giants' with vast plateaus, rare wildlife, and stunning natural beauty.",
+    "price": 1700,
+    "durationDays": 4,
+    "rating": 4.9,
+    "reviewsCount": 21,
+    "startDate": "2025-07-20",
+    "endDate": "2025-07-23",
+    "remainingSeats": 4,
+    "totalSeats": 12,
+    "category": "Wildlife",
+    "image": "https://tourismdept.gbit.gov.pk/storage/images/8yBU3bDvjlndz5hRtPhAbru7EYg73M-metaRGVvc2FpIE5hdGlvbmFsIHBhcmsuanBn-.jpg",
+    "itinerary": [
+      { "day": 1, "title": "Travel to Deosai", "description": "Jeep safari into the plains" },
+      { "day": 2, "title": "Wildlife Spotting", "description": "Search for brown bears and other wildlife" },
+      { "day": 3, "title": "Sheosar Lake", "description": "Visit the stunning alpine lake" },
+      { "day": 4, "title": "Return", "description": "Return to Skardu" }
+    ],
+    "services": ["Camping", "Meals", "Guided Tours", "Transport"]
+  },
+  {
+    "id": "pk_015",
+    "title": "Multan Sufi Heritage",
+    "location": "Punjab",
+    "departureLocation": "Lahore",
+    "description": "Known as the City of Saints, famous for its shrines and rich history.",
+    "price": 500,
+    "durationDays": 2,
+    "rating": 4.3,
+    "reviewsCount": 19,
+    "startDate": "2025-11-01",
+    "endDate": "2025-11-02",
+    "remainingSeats": 15,
+    "totalSeats": 30,
+    "category": "Religious",
+    "image": "https://pmu-lgcdd.gop.pk/public/assets/wp-content/uploads/maps_plans/Multan-District.jpg",
+    "itinerary": [
+      { "day": 1, "title": "Shrines Tour", "description": "Visit Bahauddin Zakariya and Shah Rukn-e-Alam shrines" },
+      { "day": 2, "title": "Old City", "description": "Explore Multan Fort and bazaars" }
+    ],
+    "services": ["Hotel", "City Tours", "Meals", "Transport"]
+  },
+  {
+    "id": "pk_016",
+    "title": "Cholistan Desert Safari",
+    "location": "Punjab",
+    "departureLocation": "Bahawalpur",
+    "description": "Explore the vast desert with camel safaris and the historic Derawar Fort.",
+    "price": 900,
+    "durationDays": 3,
+    "rating": 4.5,
+    "reviewsCount": 14,
+    "startDate": "2025-10-15",
+    "endDate": "2025-10-17",
+    "remainingSeats": 7,
+    "totalSeats": 15,
+    "category": "Adventure",
+    "image": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/07/37/4e/4a.jpg",
+    "itinerary": [
+      { "day": 1, "title": "Derawar Fort", "description": "Visit the massive desert fortress" },
+      { "day": 2, "title": "Desert Safari", "description": "Camel ride and overnight camping" },
+      { "day": 3, "title": "Return", "description": "Morning desert activities, return to Bahawalpur" }
+    ],
+    "services": ["Camping", "Meals", "Camel Safari", "Guide"]
+  },
+  {
+    "id": "pk_017",
+    "title": "Abbottabad Retreat",
+    "location": "Khyber Pakhtunkhwa",
+    "departureLocation": "Islamabad",
+    "description": "A beautiful hill station famous for its pleasant weather and green hills.",
+    "price": 450,
+    "durationDays": 2,
+    "rating": 4.2,
+    "reviewsCount": 22,
+    "startDate": "2025-08-15",
+    "endDate": "2025-08-16",
+    "remainingSeats": 18,
+    "totalSeats": 30,
+    "category": "Leisure",
+    "image": "https://historypak.com/wp-content/uploads/2013/07/5186fafbdbad59f501b06f61342d62f8.jpg",
+    "itinerary": [
+      { "day": 1, "title": "City Tour", "description": "Visit Ilyasi Mosque and Shimla Hill" },
+      { "day": 2, "title": "Return", "description": "Morning at leisure, return to Islamabad" }
+    ],
+    "services": ["Hotel", "Meals", "Local Transport", "Sightseeing"]
+  },
+  {
+    "id": "pk_018",
+    "title": "Ziarat Juniper Forest",
+    "location": "Balochistan",
+    "departureLocation": "Quetta",
+    "description": "Known for its ancient juniper forests and cool climate.",
+    "price": 1000,
+    "durationDays": 3,
+    "rating": 4.3,
+    "reviewsCount": 13,
+    "startDate": "2025-09-10",
+    "endDate": "2025-09-12",
+    "remainingSeats": 9,
+    "totalSeats": 20,
+    "category": "Nature",
+    "image": "https://www.arabnews.pk/sites/default/files/styles/n_670_395/public/2022/08/13/3387071-689093804.jpg?itok=xwi9iBzj",
+    "itinerary": [
+      { "day": 1, "title": "Travel to Ziarat", "description": "Drive from Quetta, visit Quaid's Residency" },
+      { "day": 2, "title": "Juniper Forest", "description": "Hike through ancient juniper trees" },
+      { "day": 3, "title": "Return", "description": "Morning exploration, return to Quetta" }
+    ],
+    "services": ["Hotel", "Meals", "Guided Tours", "Transport"]
+  },
+  {
+    "id": "pk_019",
+    "title": "Gwadar Beach Holiday",
+    "location": "Balochistan",
+    "departureLocation": "Karachi",
+    "description": "A port city with beautiful beaches and the developing Gwadar Deep Sea Port.",
+    "price": 1400,
+    "durationDays": 3,
+    "rating": 4.4,
+    "reviewsCount": 17,
+    "startDate": "2025-11-10",
+    "endDate": "2025-11-12",
+    "remainingSeats": 11,
+    "totalSeats": 25,
+    "category": "Beach",
+    "image": "https://gda.gov.pk/uploads/Place/1746186494_md1%20(1).jpg",
+    "itinerary": [
+      { "day": 1, "title": "Travel to Gwadar", "description": "Flight or drive from Karachi" },
+      { "day": 2, "title": "Beach Day", "description": "Visit Padi Zirr and other beaches" },
+      { "day": 3, "title": "Return", "description": "Morning at leisure, return to Karachi" }
+    ],
+    "services": ["Hotel", "Meals", "Beach Tours", "Transport"]
+  },
+  {
+    "id": "pk_020",
+    "title": "Ratti Gali Lake Trek",
+    "location": "Azad Kashmir",
+    "departureLocation": "Islamabad",
+    "description": "A stunning alpine glacial lake surrounded by snow-capped peaks and wildflowers.",
+    "price": 1700,
+    "durationDays": 4,
+    "rating": 4.8,
+    "reviewsCount": 26,
+    "startDate": "2025-07-05",
+    "endDate": "2025-07-08",
+    "remainingSeats": 5,
+    "totalSeats": 12,
+    "category": "Trekking",
+    "image": "https://crayon.pk/wp-content/uploads/2018/05/Ratti-Galli-Azad-Kahsmir.jpg",
+    "itinerary": [
+      { "day": 1, "title": "Travel to Base Camp", "description": "Drive to Dawarian village" },
+      { "day": 2, "title": "Trek to Lake", "description": "6-7 hour trek to Ratti Gali Lake" },
+      { "day": 3, "title": "Exploration Day", "description": "Explore the lake surroundings" },
+      { "day": 4, "title": "Return", "description": "Trek back and drive to Islamabad" }
+    ],
+    "services": ["Camping", "Meals", "Guided Treks", "Transport"]
+  }
+
+  ]
+,
+
+ "serviceImages": {
+  "Accommodation": "https://www.vitastudent.com/wp-content/uploads/2024/04/ULTIMATE-V239-VITA-CARDIFF-AUG-20235868_RT-e1713968356133.jpg",
+  "Meals": "https://www.egginfo.co.uk/sites/default/files/2025-01/egg-week-2024-1140x518.jpg",
+  "Guided Tours": "https://www.pithm.edu.pk/wp-content/uploads/2023/07/tour-guide.jpg",
+  "Transport": "https://blogs.worldbank.org/content/dam/sites/blogs/img/detail/mgr/mx-metrobus-cdmx-line_4-wri-cities-flickr.jpg",
+  "Jeep Tours": "https://www.jasminetours.com/wp-content/uploads/2019/01/jeeps-1.jpg",
+  "Guided Treks": "https://www.nps.gov/glac/planyourvisit/images/guidedhiking.jpg",
+  "Hotel Stay": "https://cdn.pixabay.com/photo/2016/10/18/09/02/hotel-1749602_1280.jpg",
+  "Hiking Guide": "https://cdn.pixabay.com/photo/2014/09/21/17/56/mountaineering-455338_640.jpg",
+  "Local Transport": "https://cdn.pixabay.com/photo/2016/12/26/13/28/taxi-1932107_640.jpg",
+  "Camping": "https://cdn.pixabay.com/photo/2020/01/30/19/15/camping-4806279_640.jpg",
+  "City Tours": "https://cdn.pixabay.com/photo/2016/09/04/13/52/paris-1644055_640.jpg",
+  "Sightseeing": "https://cdn.pixabay.com/photo/2023/05/25/09/00/bus-8016675_640.jpg",
+  "Guide": "https://media.istockphoto.com/id/494667916/photo/two-couples-reading-city-map.jpg?s=612x612&w=0&k=20&c=GAxnIKcgcTR_65sFZi7C-jgN-ZZRxIQiv032ywLX6Uc=",
+  "Entry Fee": "https://cdn.vectorstock.com/i/1000v/67/14/red-vip-entry-ticket-stub-vector-22996714.jpg",
+  "Beach Tours": "https://cdn.pixabay.com/photo/2021/05/29/03/00/beach-6292382_640.jpg",
+  "Camel Safari": "https://cdn.pixabay.com/photo/2018/02/05/15/03/rajasthan-3132408_640.jpg",
+  "Hotel": "https://cdn.pixabay.com/photo/2016/10/18/09/02/hotel-1749602_1280.jpg",
+  "Local Tours": "https://pakistantourntravel.com/wp-content/uploads/2025/01/Uch-sharif.webp"
+},
+
+  
+  "users": [
+    {
+      "id": 1,
+      "name": "Faisal Ali",
+      "email": "faisal@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Ayesha Khan",
+      "email": "ayesha@example.com"
+    }
+  ]
+}

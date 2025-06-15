@@ -1,0 +1,63 @@
+/* Carousel Arrows */
+.slick-prev,
+.slick-next {
+  z-index: 10;
+  /* width: 40px;
+  height: 40px;
+  background-color: rgba(25, 135, 84, 0.8); /* Bootstrap success green with transparency */
+  /* border-radius: 50%;  */
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+/* .slick-prev:hover,
+.slick-next:hover {
+  background-color: #198754;
+} */
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 20px;
+  color: white;
+  opacity: 1;
+}
+
+.slick-prev {
+  left: -20px;
+}
+
+.slick-next {
+  right: -20px;
+}
+
+/* Carousel Dots */
+.slick-dots {
+  bottom: -30px;
+  display: flex !important;
+  justify-content: center;
+  flex-wrap: nowrap !important; /* Prevent multi-line */
+  overflow: hidden;
+}
+
+.slick-dots li {
+  margin: 0 4px;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  color: white;
+  opacity: 0.6;
+  transition: 0.3s ease;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #198754;
+  opacity: 1;
+}
+
+/* Slide Padding */
+.slick-slide > div {
+  margin: 0 10px;
+}
