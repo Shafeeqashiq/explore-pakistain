@@ -1,8 +1,8 @@
 // src/pages/Admin.jsx
 import React, { useState } from "react";
 import { Container, Tab, Tabs } from "react-bootstrap";
-import TourManagement from "../components/admin/TourManagement";
-import BookingManagement from "../components/admin/BookingManagement";
+import TourManagement from "../Admin/TourManagement";
+import BookingManagement from "../Admin/BookingManagement";
 
 const Admin = () => {
   const [key, setKey] = useState("tours");

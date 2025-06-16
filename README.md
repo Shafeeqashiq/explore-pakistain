@@ -39,13 +39,14 @@ src/
 ├── assets/
 │   └── explore_pakistan_logo.png      # Static assets like logos
 │
+│   Admin/                   # Admin panel components
+│      ├── AdminDashboard.jsx
+│      ├── BookingManagement.jsx
+│      ├── TourFormModal.jsx
+│      ├── TourListTable.jsx
+│      ├── TourManagement.jsx
 ├── components/                  # Reusable React components
-│   ├── Admin/                   # Admin panel components
-│   │   ├── AdminDashboard.jsx
-│   │   ├── BookingManagement.jsx
-│   │   ├── TourFormModal.jsx
-│   │   ├── TourListTable.jsx
-│   │   ├── TourManagement.jsx
+│   ├── 
 │   │
 │   ├── Overlay.jsx              # General UI overlay
 │   ├── ServiceItem.jsx          # Services items

@@ -12,9 +12,6 @@ function Overlay() {
       <p className="fs-4 fst-italic">
         Let your soul breathe where the mountains meet the clouds.
       </p>
-      {/* <a href="#tours" className="btn btn-success  text-white rounded-pill">
-        Explore Now →
-      </a> */}
     </div>
   );
 }
