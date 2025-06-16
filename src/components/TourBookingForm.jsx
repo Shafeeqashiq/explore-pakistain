@@ -65,31 +65,31 @@ export default function TourBookingForm({
       ...formData,
       tourId,
       bookingDate: new Date().toISOString(),
+      status: "pending",
     };
 
     try {
-      const res = await fetch("http://localhost:5000/bookings", {
+      const res = await fetch("http://localhost:5001/bookings", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(booking),
       });
 
       if (res.ok) {
+        const createdBooking = await res.json(); // 👈 Get booking with `id` from server
         const updatedSeats = remainingSeats - booking.numberOfPeople;
 
-        // Update the available seats in the backend
-        await fetch(`http://localhost:5000/tours/${tourId}`, {
+        await fetch(`http://localhost:5001/tours/${tourId}`, {
           method: "PATCH",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ remainingSeats: updatedSeats }),
         });
 
-        // Update local UI state
         updateRemainingSeats(updatedSeats);
         setStatus("success");
         setSubmittedData({
-          userName: formData.userName,
-          tourId: tourId,
+          userName: createdBooking.userName,
+          bookingId: createdBooking.id, // ✅ Show this in toast
         });
 
         setFormData({
@@ -116,48 +116,51 @@ export default function TourBookingForm({
       <h5 className="mt-4">Book Your Tour</h5>
 
       <ToastContainer
-        position="top-center"
-        style={{ zIndex: 2000, position: "fixed" }}
+        style={{
+          position: "fixed",
+          top: "20px",
+          left: "50%",
+          transform: "translateX(-50%)",
+          zIndex: 2000,
+        }}
       >
         <Toast
           onClose={() => setStatus(null)}
           show={status === "success"}
-          delay={3000}
-          autohide
+          autohide={false}
         >
-          <Toast.Header>
-            <strong className="me-auto">Booking Confirmed</strong>
-            <button
-              type="button"
-              className="btn-close"
-              onClick={() => setStatus(null)}
-            />
+          <Toast.Header closeButton>
+            <strong className="me-auto">🎉 Booking Confirmed</strong>
           </Toast.Header>
           <Toast.Body>
             <div className="text-start">
               <p className="mb-2">
-                🎉 <strong>Booking Confirmed!</strong>
-                <br />
-                Thank you for choosing us! Your tour booking has been
+                Thank you for booking your tour with{" "}
+                <strong>Explore Pakistan</strong>! Your reservation has been
                 successfully submitted.
               </p>
 
-              <ul className="mb-2 ps-3">
+              <ul className="mb-3 ps-3">
                 {submittedData?.userName && (
                   <li>
-                    <strong>Booked By:</strong> {submittedData.userName}
+                    <strong>Name:</strong> {submittedData.userName}
                   </li>
                 )}
-                {submittedData?.tourId && (
+                {submittedData?.bookingId && (
                   <li>
-                    <strong>Tour Reference ID:</strong> {submittedData.tourId}
+                    <strong>Booking ID:</strong> {submittedData.bookingId}
                   </li>
                 )}
               </ul>
 
+              <p className="mb-2">
+                🔎 To check your booking status later, please keep both your{" "}
+                <strong>Tour ID</strong> and <strong>Name</strong> safe.
+              </p>
+
               <small className="text-muted">
-                Please save this information. You can use the Tour ID to track
-                or verify your booking later.
+                You can use these details on the Booking Status page to view
+                your booking information at any time.
               </small>
             </div>
           </Toast.Body>

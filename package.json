@@ -8,13 +8,14 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "server": "json-server --watch data.json --port 5000"
+    "server": "json-server --watch data.json --port 5001"
   },
   "dependencies": {
     "bootstrap": "^5.3.6",
     "bootstrap-icons": "^1.13.1",
     "react": "^19.1.0",
     "react-bootstrap": "^2.9.0",
+    "react-bootstrap-icons": "^1.11.6",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.2",
     "react-slick": "^0.30.3",

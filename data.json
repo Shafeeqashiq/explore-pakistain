@@ -81,60 +81,10 @@
   ],
   "tours": [
     {
-      "id": "pk_001",
-      "title": "Hunza Valley",
-      "location": "Gilgit-Baltistan",
-      "departureLocation": "Islamabad",
-      "description": "A breathtaking mountainous valley known for its stunning landscapes, ancient forts, and serene lakes.",
-      "price": 1200,
-      "durationDays": 5,
-      "rating": 4.8,
-      "reviewsCount": 47,
-      "startDate": "2025-07-10",
-      "endDate": "2025-07-14",
-      "remainingSeats": 8,
-      "totalSeats": 20,
-      "category": "Adventure",
-      "image": "https://www.penguintravel.com/uploads/news/news_500.jpg",
-      "itinerary": [
-        {
-          "day": 1,
-          "title": "Arrival & Check-in",
-          "description": "Drive to Hunza, hotel check-in, rest."
-        },
-        {
-          "day": 2,
-          "title": "Altit & Baltit Forts",
-          "description": "Visit centuries-old forts and local museum."
-        },
-        {
-          "day": 3,
-          "title": "Eagle’s Nest & Hopper Glacier",
-          "description": "Sunrise viewpoint and glacier excursion."
-        },
-        {
-          "day": 4,
-          "title": "Attabad Lake & Passu Cones",
-          "description": "Boat ride and sightseeing of unique rock formations."
-        },
-        {
-          "day": 5,
-          "title": "Return Journey",
-          "description": "Drive back to Islamabad with scenic stops."
-        }
-      ],
-      "services": [
-        "Accommodation",
-        "Meals",
-        "Guided Tours",
-        "Transport"
-      ]
-    },
-    {
       "id": "pk_002",
       "title": "Skardu",
       "location": "Gilgit-Baltistan",
-      "departureLocation": "Islamabad",
+      "departureLocation": "lahore",
       "description": "Gateway to some of the world's highest peaks, with beautiful lakes and trekking trails.",
       "price": 1400,
       "durationDays": 6,
@@ -142,9 +92,9 @@
       "reviewsCount": 38,
       "startDate": "2025-07-05",
       "endDate": "2025-07-10",
-      "remainingSeats": 8,
+      "remainingSeats": 20,
       "totalSeats": 20,
-      "category": "Adventure",
+      "category": "love",
       "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/39/26/f2/upper-kachura-lake-is.jpg?w=1200&h=-1&s=1",
       "itinerary": [
         {
@@ -179,10 +129,8 @@
         }
       ],
       "services": [
-        "Accommodation",
-        "Meals",
-        "Jeep Tours",
-        "Guided Treks"
+        "Hotel",
+        "Meals"
       ]
     },
     {
@@ -317,7 +265,7 @@
       "reviewsCount": 36,
       "startDate": "2025-07-05",
       "endDate": "2025-07-07",
-      "remainingSeats": 10,
+      "remainingSeats": 8,
       "totalSeats": 25,
       "category": "Leisure",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/A_beautiful_view_of_Murree%2C_Pakistan.jpg/960px-A_beautiful_view_of_Murree%2C_Pakistan.jpg",
@@ -357,7 +305,7 @@
       "reviewsCount": 24,
       "startDate": "2025-08-20",
       "endDate": "2025-08-25",
-      "remainingSeats": 6,
+      "remainingSeats": 0,
       "totalSeats": 15,
       "category": "Cultural",
       "image": "https://www.apricottours.pk/wp-content/uploads/2017/03/chitral-kalash-9.jpg",
@@ -913,6 +861,25 @@
         "Guided Treks",
         "Transport"
       ]
+    },
+    {
+      "id": "",
+      "title": "NorMahel",
+      "location": "Bahawalpur",
+      "departureLocation": "Bahawalpur",
+      "description": "",
+      "price": 500,
+      "durationDays": 1,
+      "rating": 0,
+      "reviewsCount": 0,
+      "startDate": "2025-06-15",
+      "endDate": "2025-06-15",
+      "remainingSeats": 10,
+      "totalSeats": 7,
+      "category": "information",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/40/Front_Elevation_of_Noor_Mahal.jpg",
+      "services": [],
+      "itinerary": []
     }
   ],
   "serviceImages": {
@@ -937,286 +904,112 @@
   },
   "bookings": [
     {
-      "id": "b8ad",
-      "userName": "shamf",
-      "userEmail": "dfslkghls@gmail.com",
-      "phoneNumber": "t309w4o",
-      "numberOfPeople": "143",
-      "startDate": "2025-06-15",
-      "message": "etiouw",
-      "tourId": "pk_016",
-      "bookingDate": "2025-06-15T07:05:58.676Z"
-    },
-    {
-      "id": "1d7f",
-      "userName": "dsgklgsg",
-      "userEmail": "dgsioaohyr@gmial.comwe4u6o43ou6",
-      "phoneNumber": "345ui3o6uo",
-      "numberOfPeople": 1,
-      "startDate": "",
-      "message": "",
-      "tourId": "pk_016",
-      "bookingDate": "2025-06-15T07:06:31.560Z"
-    },
-    {
-      "id": "9a80",
-      "userName": "shamf",
-      "userEmail": "dfslkghls@gmail.com",
-      "phoneNumber": "32545737436",
-      "cnicPassport": "4663",
-      "numberOfPeople": 2,
-      "startDate": "2025-06-15",
-      "message": "",
-      "tourId": "pk_001",
-      "bookingDate": "2025-06-15T07:32:02.954Z"
-    },
-    {
-      "id": "2212",
-      "userName": "te",
+      "id": "40c1",
+      "userName": "shafeeq",
       "userEmail": "shafe@gmail.com",
-      "phoneNumber": "436347346443463",
-      "cnicPassport": "",
-      "numberOfPeople": 2,
-      "startDate": "2025-06-15",
-      "message": "",
-      "tourId": "pk_001",
-      "bookingDate": "2025-06-15T07:41:13.450Z"
-    },
-    {
-      "id": "6f84",
-      "userName": "ert",
-      "userEmail": "dfslkghls@gmail.com",
-      "phoneNumber": "53278965349867",
-      "cnicPassport": "",
-      "numberOfPeople": 2,
-      "startDate": "",
-      "message": "",
-      "tourId": "pk_004",
-      "bookingDate": "2025-06-15T07:57:05.730Z"
-    },
-    {
-      "id": "f423",
-      "userName": "dsgklgsg",
-      "userEmail": "dgsioaohyr@gmial.comwe4u6o43ou6",
-      "phoneNumber": "532789653498673",
-      "cnicPassport": "",
+      "phoneNumber": "0932758921235",
+      "cnicPassport": "5346475382456",
       "numberOfPeople": 1,
-      "startDate": "",
-      "message": "",
-      "tourId": "pk_001",
-      "bookingDate": "2025-06-15T08:00:39.867Z"
+      "message": "this is the uer message",
+      "tourId": "pk_002",
+      "bookingDate": "2025-06-15T16:49:33.921Z",
+      "status": "deleted"
     },
     {
-      "id": "0f61",
-      "userName": "dsgklgsg",
-      "userEmail": "dgsioaohyr@gmial.comwe4u6o43ou6",
-      "phoneNumber": "532789653498673",
-      "cnicPassport": "",
-      "numberOfPeople": 1,
-      "startDate": "",
-      "message": "",
-      "tourId": "pk_004",
-      "bookingDate": "2025-06-15T08:05:52.023Z"
-    },
-    {
-      "id": "aaa1",
-      "userName": "dsgklgsg",
-      "userEmail": "dgsioaohyr@gmial.comwe4u6o43ou6",
-      "phoneNumber": "532789653498673",
-      "cnicPassport": "4663",
-      "numberOfPeople": 1,
-      "startDate": "",
-      "message": "jhk",
-      "tourId": "pk_001",
-      "bookingDate": "2025-06-15T09:21:53.068Z"
-    },
-    {
-      "id": "77a5",
-      "userName": "dsgklgsg",
-      "userEmail": "dgsioaohyr@gmial.comwe4u6o43ou6",
-      "phoneNumber": "532789653498673",
-      "cnicPassport": "4663",
-      "numberOfPeople": 1,
-      "message": "",
-      "tourId": "pk_001",
-      "bookingDate": "2025-06-15T09:24:10.070Z"
-    },
-    {
-      "id": "cd99",
-      "userName": "dsgklgsg",
-      "userEmail": "dgsioaohyr@gmial.comwe4u6o43ou6",
-      "phoneNumber": "532789653498673",
-      "cnicPassport": "4663",
-      "numberOfPeople": 1,
-      "message": "taxi",
-      "tourId": "pk_001",
-      "bookingDate": "2025-06-15T09:25:15.683Z"
-    },
-    {
-      "id": "210b",
-      "userName": "dsgklgsg",
-      "userEmail": "dgsioaohyr@gmial.comwe4u6o43ou6",
-      "phoneNumber": "532789653498673",
-      "cnicPassport": "4663",
-      "numberOfPeople": 8,
-      "message": "",
-      "tourId": "pk_001",
-      "bookingDate": "2025-06-15T09:31:58.588Z"
-    },
-    {
-      "id": "b341",
-      "userName": "fs",
+      "id": "e738",
+      "userName": "shafeeq",
       "userEmail": "shafe@gmail.com",
       "phoneNumber": "532789653498673",
-      "cnicPassport": "",
+      "cnicPassport": "5346475382456",
       "numberOfPeople": 1,
       "message": "",
-      "tourId": "pk_001",
-      "bookingDate": "2025-06-15T09:34:50.816Z"
+      "tourId": "pk_007",
+      "bookingDate": "2025-06-16T03:59:02.042Z",
+      "status": "pending"
     },
     {
-      "id": "b68e",
-      "userName": "dsgklgsg",
-      "userEmail": "dgsioaohyr@gmial.comwe4u6o43ou6",
-      "phoneNumber": "532789653498673",
-      "cnicPassport": "4663",
-      "numberOfPeople": 10,
-      "message": "",
-      "tourId": "pk_002",
-      "bookingDate": "2025-06-15T09:38:00.891Z"
-    },
-    {
-      "id": "eb28",
-      "userName": "dsgklgsg",
-      "userEmail": "dgsioaohyr@gmial.comwe4u6o43ou6",
-      "phoneNumber": "532789653498673",
-      "cnicPassport": "",
-      "numberOfPeople": 8,
-      "message": "",
-      "tourId": "pk_001",
-      "bookingDate": "2025-06-15T09:47:41.383Z"
-    },
-    {
-      "id": "a384",
-      "userName": "dsgklgsg",
-      "userEmail": "dgsioaohyr@gmial.comwe4u6o43ou6",
-      "phoneNumber": "532789653498673",
-      "cnicPassport": "",
-      "numberOfPeople": 10,
-      "message": "",
-      "tourId": "pk_002",
-      "bookingDate": "2025-06-15T09:49:39.136Z"
-    },
-    {
-      "id": "fbd3",
-      "userName": "dsgklgsg",
-      "userEmail": "dgsioaohyr@gmial.comwe4u6o43ou6",
-      "phoneNumber": "532789653498673",
-      "cnicPassport": "",
-      "numberOfPeople": 1,
-      "message": "",
-      "tourId": "pk_002",
-      "bookingDate": "2025-06-15T09:52:22.023Z"
-    },
-    {
-      "id": "cf66",
-      "userName": "dsgklgsg",
-      "userEmail": "dgsioaohyr@gmial.comwe4u6o43ou6",
-      "phoneNumber": "532789653498673",
-      "cnicPassport": "",
-      "numberOfPeople": 1,
-      "message": "",
-      "tourId": "pk_002",
-      "bookingDate": "2025-06-15T09:54:01.938Z"
-    },
-    {
-      "id": "022c",
-      "userName": "dsgklgsg",
-      "userEmail": "dgsioaohyr@gmial.comwe4u6o43ou6",
-      "phoneNumber": "532789653498673",
-      "cnicPassport": "",
-      "numberOfPeople": 3,
-      "message": "",
-      "tourId": "pk_002",
-      "bookingDate": "2025-06-15T09:54:17.312Z"
-    },
-    {
-      "id": "9bb6",
-      "userName": "dsgklgsg",
-      "userEmail": "dgsioaohyr@gmial.comwe4u6o43ou6",
-      "phoneNumber": "532789653498673",
-      "cnicPassport": "",
-      "numberOfPeople": 12,
-      "message": "",
-      "tourId": "pk_003",
-      "bookingDate": "2025-06-15T10:05:58.740Z"
-    },
-    {
-      "id": "2c96",
-      "userName": "dsgklgsg",
-      "userEmail": "dgsioaohyr@gmial.comwe4u6o43ou6",
-      "phoneNumber": "532789653498673",
-      "cnicPassport": "4663",
-      "numberOfPeople": 5,
-      "message": "",
-      "tourId": "pk_002",
-      "bookingDate": "2025-06-15T10:07:23.141Z"
-    },
-    {
-      "id": "073d",
-      "userName": "dsgklgsg",
-      "userEmail": "dgsioaohyr@gmial.comwe4u6o43ou6",
-      "phoneNumber": "532789653498673",
-      "cnicPassport": "4663",
-      "numberOfPeople": 1,
-      "message": "",
-      "tourId": "pk_019",
-      "bookingDate": "2025-06-15T10:15:04.659Z"
-    },
-    {
-      "id": "aef7",
+      "id": "8f7a",
       "userName": "shafeeq",
       "userEmail": "shafeeq@gamil.com",
-      "phoneNumber": "3424356437",
-      "cnicPassport": "4663",
-      "numberOfPeople": 1,
-      "message": "",
-      "tourId": "pk_017",
-      "bookingDate": "2025-06-15T10:31:04.138Z"
-    },
-    {
-      "id": "a33d",
-      "userName": "dsgklgsg",
-      "userEmail": "dgsioaohyr@gmial.comwe4u6o43ou6",
       "phoneNumber": "532789653498673",
       "cnicPassport": "",
       "numberOfPeople": 1,
       "message": "",
-      "tourId": "pk_017",
-      "bookingDate": "2025-06-15T10:37:07.277Z"
+      "tourId": "pk_006",
+      "bookingDate": "2025-06-16T04:00:10.604Z",
+      "status": "pending"
     },
     {
-      "id": "ee0d",
-      "userName": "dsgklgsg",
-      "userEmail": "dgsioaohyr@gmial.comwe4u6o43ou6",
+      "id": "2ea8",
+      "userName": "shafeeq",
+      "userEmail": "dfslkghls@gmail.com",
       "phoneNumber": "532789653498673",
-      "cnicPassport": "4663",
+      "cnicPassport": "5346475382456",
       "numberOfPeople": 1,
       "message": "",
-      "tourId": "pk_017",
-      "bookingDate": "2025-06-15T10:42:25.128Z"
-    }
-  ],
-  "users": [
-    {
-      "id": "1",
-      "name": "Faisal Ali",
-      "email": "faisal@example.com"
+      "tourId": "pk_006",
+      "bookingDate": "2025-06-16T04:01:03.320Z",
+      "status": "pending"
     },
     {
-      "id": "2",
-      "name": "Ayesha Khan",
-      "email": "ayesha@example.com"
+      "id": "416c",
+      "userName": "shafeeq",
+      "userEmail": "shafe@gmail.com",
+      "phoneNumber": "578934693796",
+      "cnicPassport": "5346475382456",
+      "numberOfPeople": 1,
+      "message": "",
+      "tourId": "pk_007",
+      "bookingDate": "2025-06-16T04:03:53.070Z",
+      "status": "pending"
+    },
+    {
+      "id": "d2df",
+      "userName": "shafeeq",
+      "userEmail": "shafe@gmail.com",
+      "phoneNumber": "532789653498673",
+      "cnicPassport": "5346475382456",
+      "numberOfPeople": 1,
+      "message": "",
+      "tourId": "pk_007",
+      "bookingDate": "2025-06-16T04:14:17.726Z",
+      "status": "pending"
+    },
+    {
+      "id": "4600",
+      "userName": "shafeeq",
+      "userEmail": "shafe@gmail.com",
+      "phoneNumber": "532789653498673",
+      "cnicPassport": "5346475382456",
+      "numberOfPeople": 1,
+      "message": "",
+      "tourId": "pk_007",
+      "bookingDate": "2025-06-16T04:19:19.558Z",
+      "status": "pending"
+    },
+    {
+      "id": "e85c",
+      "userName": "shafeeq",
+      "userEmail": "shafe@gmail.com",
+      "phoneNumber": "532789653498673",
+      "cnicPassport": "5346475382456",
+      "numberOfPeople": 1,
+      "message": "",
+      "tourId": "pk_007",
+      "bookingDate": "2025-06-16T04:20:44.251Z",
+      "status": "pending"
+    },
+    {
+      "id": "2d65",
+      "userName": "shafeeq",
+      "userEmail": "shafe@gmail.com",
+      "phoneNumber": "532789653498673",
+      "cnicPassport": "",
+      "numberOfPeople": 1,
+      "message": "",
+      "tourId": "pk_007",
+      "bookingDate": "2025-06-16T04:26:41.114Z",
+      "status": "pending"
     }
   ]
 }

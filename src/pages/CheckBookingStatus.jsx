@@ -23,7 +23,7 @@ export default function CheckBookingStatus() {
 
   // Load service images on component mount
   useEffect(() => {
-    fetch("http://localhost:5000/serviceImages")
+    fetch("http://localhost:5001/serviceImages")
       .then((res) => res.json())
       .then((data) => setServiceImages(data))
       .catch((err) => console.error("Failed to load service images", err));
@@ -43,7 +43,7 @@ export default function CheckBookingStatus() {
 
     try {
       const res = await fetch(
-        `http://localhost:5000/bookings/${formData.bookingId}`
+        `http://localhost:5001/bookings/${formData.bookingId}`
       );
       if (!res.ok) throw new Error("Booking not found");
       const bookingData = await res.json();
@@ -57,7 +57,7 @@ export default function CheckBookingStatus() {
       setBooking(bookingData);
 
       const tourRes = await fetch(
-        `http://localhost:5000/tours/${bookingData.tourId}`
+        `http://localhost:5001/tours/${bookingData.tourId}`
       );
       if (!tourRes.ok) throw new Error("Related tour not found");
       const tourData = await tourRes.json();
@@ -165,7 +165,7 @@ export default function CheckBookingStatus() {
                       className="me-2 text-muted"
                       style={{ width: "140px" }}
                     >
-                      People:
+                      Total Seats:
                     </strong>
                     <span>{booking.numberOfPeople}</span>
                   </div>
@@ -188,6 +188,25 @@ export default function CheckBookingStatus() {
                       Message:
                     </strong>
                     <span>{booking.message || "—"}</span>
+                  </div>
+                  <div className="d-flex mb-2">
+                    <strong
+                      className="me-2 text-muted"
+                      style={{ width: "140px" }}
+                    >
+                      Status:
+                    </strong>
+                    <Badge
+                      bg={
+                        booking.status === "confirmed"
+                          ? "success"
+                          : booking.status === "pending"
+                          ? "warning"
+                          : "danger"
+                      }
+                    >
+                      {booking.status}
+                    </Badge>
                   </div>
                 </Col>
               </Row>

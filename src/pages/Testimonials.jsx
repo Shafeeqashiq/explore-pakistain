@@ -14,7 +14,7 @@ const Testimonials = () => {
   useEffect(() => {
     const fetchTestimonials = async () => {
       try {
-        const response = await fetch("http://localhost:5000/testimonials");
+        const response = await fetch("http://localhost:5001/testimonials");
         if (!response.ok) throw new Error("Failed to fetch");
         const data = await response.json();
 

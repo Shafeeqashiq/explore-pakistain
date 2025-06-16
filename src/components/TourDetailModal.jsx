@@ -27,7 +27,7 @@ const TourDetailModal = ({ show, onHide, tour }) => {
   // Fetch service images when modal is shown
   useEffect(() => {
     if (show) {
-      fetch("http://localhost:5000/serviceImages")
+      fetch("http://localhost:5001/serviceImages")
         .then((res) => res.json())
         .then((data) => {
           setServiceImages(data);

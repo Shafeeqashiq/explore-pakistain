@@ -25,7 +25,7 @@ export default function TourOffers() {
   const toursPerPage = 6;
 
   useEffect(() => {
-    fetch("http://localhost:5000/tours")
+    fetch("http://localhost:5001/tours")
       .then((res) => res.json())
       .then((data) => setTours(data))
       .catch((err) => console.error("Failed to fetch tours:", err));
